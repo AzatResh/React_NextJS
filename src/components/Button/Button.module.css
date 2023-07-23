@@ -1,0 +1,25 @@
+.button{
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+
+    transition: all .5s;
+}
+
+.primary{
+    border-color: var(--white);
+    color: var(--white);
+    background: var(--primary);
+}
+.primary:hover{
+    background: var(--primary-hover);
+}
+
+.ghost{
+    border-color: var(--grey);
+    color: var(--black);
+    background: var(--white);
+}
