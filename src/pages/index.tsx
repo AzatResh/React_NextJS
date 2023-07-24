@@ -1,5 +1,6 @@
 import { Button, Htag } from '../components';
 import { Paragraph } from '../components';
+import { Tag } from '../components';
 
 export default function Home(): JSX.Element {
   return (
@@ -10,6 +11,10 @@ export default function Home(): JSX.Element {
       <Paragraph> Средний </Paragraph>
       <Paragraph size='s'> Маленький </Paragraph>
       <Paragraph size='l'> Большой </Paragraph>
+      <Tag>Ссылка</Tag>
+      <Tag size='s' color='red'>Ссылка</Tag>
+      <Tag size='m' color='green'>Ссылка</Tag>
+      <Tag color='primary'>Ссылка</Tag>
     </div>
   );
 }
