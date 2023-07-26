@@ -20,7 +20,7 @@ function Home(): JSX.Element {
       <Tag size='s' color='red'>Ссылка</Tag>
       <Tag size='m' color='green'>Ссылка</Tag>
       <Tag color='primary'>Ссылка</Tag>
-      <Rating rating={4} isEditable={true} setRating={setRating}/>
+      <Rating rating={4} isEditable={true} setRating={setRating}/> 
     </>
   );
 }

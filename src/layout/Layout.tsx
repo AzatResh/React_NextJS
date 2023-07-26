@@ -8,17 +8,14 @@ import { FunctionComponent } from "react";
 
 export const Layout = ({size = 'm', href, color='primary', children, className, ...props}: LayoutProps):JSX.Element => {
     return (
-        <>
-            <Header/>
-            header
-            <div>
-                <Sidebar/>
-                sidebar
+        <div className={styles.wrapper}>
+            <Header className={styles.header}/>
+            <Sidebar className={styles.sidebar}/>
+            <div className={styles.body}>
                 {children}
             </div>
-            footer
-            <Footer/>
-        </>
+            <Footer className={styles.footer}/>
+        </div>
     )
 }
 
